@@ -134,7 +134,7 @@ clone_repo() {
 }
 
 echo -e "${BLUE}Starting repository validation/cloning process...${NC}"
-echo -e "${BLUE}This script covers startups founded between 2010-2020 with venture funding${NC}"
+echo -e "${BLUE}This script covers startups founded between 2010-2023 with venture funding${NC}"
 echo ""
 
 # GitLab
@@ -243,7 +243,7 @@ clone_repo "Plausible" "https://github.com/plausible/analytics" "2019" "Self-fun
 clone_repo "MeiliSearch" "https://github.com/meilisearch/meilisearch" "2018" "$15M venture funding"
 
 # Novu
-clone_repo "Novu" "https://github.com/novuhq/novu" "2020" "$6.6M+ venture funding"
+clone_repo "Novu" "https://github.com/novuhq/novu" "2021" "$6.6M+ venture funding"
 
 # SuperTokens
 clone_repo "SuperTokens" "https://github.com/supertokens/supertokens-core" "2019" "$2.5M+ venture funding"
@@ -280,9 +280,6 @@ clone_repo "Typesense" "https://github.com/typesense/typesense" "2015" "Venture 
 
 # Taiga
 clone_repo "Taiga" "https://github.com/taigaio/taiga-back" "2014" "$2.6M venture funding"
-
-# Dagster
-clone_repo "Dagster" "https://github.com/dagster-io/dagster" "2018" "$30M+ venture funding"
 
 # Streamlit
 clone_repo "Streamlit" "https://github.com/streamlit/streamlit" "2018" "Acquired by Snowflake"
@@ -349,6 +346,80 @@ clone_repo "Teleport" "https://github.com/gravitational/teleport" "2015" "$169M+
 
 # Penpot
 clone_repo "Penpot" "https://github.com/penpot/penpot" "2020" "$8M+ venture funding"
+
+# Added repositories from the complete list
+
+# LangChain
+clone_repo "LangChain" "https://github.com/langchain-ai/langchain" "2022" "$25M+ venture funding"
+
+# Refine
+clone_repo "Refine" "https://github.com/refinedev/refine" "2021" "$1M+ venture funding"
+
+# Lightdash
+clone_repo "Lightdash" "https://github.com/lightdash/lightdash" "2021" "$8.4M venture funding"
+
+# FerretDB
+clone_repo "FerretDB" "https://github.com/FerretDB/FerretDB" "2021" "Venture backed"
+
+# Chainguard
+clone_repo "Chainguard" "https://github.com/chainguard-dev/enforcer" "2021" "$55M+ venture funding"
+
+# Baserow
+clone_repo "Baserow" "https://github.com/bram2w/baserow" "2020" "$5M+ venture funding"
+
+# Appflowy
+clone_repo "Appflowy" "https://github.com/AppFlowy-IO/AppFlowy" "2021" "$1.6M+ venture funding"
+
+# Plane
+clone_repo "Plane" "https://github.com/makeplane/plane" "2022" "Venture backed"
+
+# Infisical
+clone_repo "Infisical" "https://github.com/Infisical/infisical" "2022" "$6.8M venture funding"
+
+# Grafbase
+clone_repo "Grafbase" "https://github.com/grafbase/grafbase" "2021" "$7.3M venture funding"
+
+# Automatisch
+clone_repo "Automatisch" "https://github.com/automatisch/automatisch" "2021" "Venture backed"
+
+# BoxyHQ
+clone_repo "BoxyHQ" "https://github.com/boxyhq/jackson" "2021" "$1.2M+ venture funding"
+
+# Superblocks
+clone_repo "Superblocks" "https://github.com/superblocksteam/superblocks" "2020" "$37M venture funding"
+
+# Meshery
+clone_repo "Meshery" "https://github.com/meshery/meshery" "2019" "Venture backed"
+
+# Superface
+clone_repo "Superface" "https://github.com/superfaceai/parser" "2020" "$3.5M venture funding"
+
+# Bytebase
+clone_repo "Bytebase" "https://github.com/bytebase/bytebase" "2020" "$12M+ venture funding"
+
+# Kyverno
+clone_repo "Kyverno" "https://github.com/kyverno/kyverno" "2019" "Nirmata-backed"
+
+# Linen
+clone_repo "Linen" "https://github.com/Linen-dev/linen.dev" "2020" "Venture backed"
+
+# Langflow
+clone_repo "Langflow" "https://github.com/langflow-ai/langflow" "2023" "Venture backed"
+
+# Pinecone
+clone_repo "Pinecone" "https://github.com/pinecone-io/pinecone-ts" "2019" "$138M venture funding"
+
+# Ollama
+clone_repo "Ollama" "https://github.com/ollama/ollama" "2023" "Top ROSS index startup 2024"
+
+# Zed
+clone_repo "Zed" "https://github.com/zed-industries/zed" "2018" "Top ROSS index startup 2024"
+
+# Immich
+clone_repo "Immich" "https://github.com/immich-app/immich" "2022" "Venture backed"
+
+# Astro
+clone_repo "Astro" "https://github.com/withastro/astro" "2021" "$7M venture funding"
 
 # Print summary
 echo ""
